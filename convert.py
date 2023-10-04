@@ -1,7 +1,7 @@
 import re
 import os
 
-folder_path = 'input'
+folder_path = '/path/to/your/folder'
 
 markdown_files = [file for file in os.listdir(folder_path) if file.endswith('.md')]
 
